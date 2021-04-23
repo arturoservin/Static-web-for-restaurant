@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+/* aqui empieza el header */
+header{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #6CC486;
+    align-items: center;
+}
+.name_container{
+    width: fit-content;
+}
+.name_container h1{
+    width: fit-content;
+    font-family: Helvetica;
+}
+.menu{
+    width: 100%;
+    align-items: center;
+}
+.menu ul{
+    
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+}
+.menu ul li{
+    margin: 0 20px 0 20px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    background-color:#73D18F;
+    opacity: .7;
+    border-radius: 3px;
+}
+/*aqui empieza el hero*/
+.hero{
+    padding: 0 15% 0 15%;
+    display: flex;
+    align-items: center;
+}
+.hero h2{
+    width: 50%;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.hero div img{
+    width: 100%;
+}
+.image_container{
+    width: 50%;
+}
+/* aqui empieza el menu*/
+.menu_food{
+    display: flex;
+    padding: 0 15% 0 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    width: 30.3333%;
+    margin: 1%;
+}
+.item_image{
+    width: 100%;
+}
