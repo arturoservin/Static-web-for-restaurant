@@ -67,9 +67,26 @@ header{
     justify-content: center;
 }
 .item{
-    width: 30.3333%;
+    width: 28.3333%;
     margin: 1%;
+    padding: 1%;
+    font-family: Helvetica;
+    background-color: #f6f6f6;
+    border-radius: 10px;
 }
 .item_image{
     width: 100%;
+}
+/* footer*/
+footer{
+    background-color: #1c3643;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: Helvetica;
+}
+footer p{
+    margin: 0 0 0 0;
 }
