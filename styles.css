@@ -110,10 +110,14 @@ header{
     border-color: transparent;
     border-radius: 5px;
     width: 100px;
-    margin: 0 20% 0 20%;
     height: 30px;
     font-family: Helvetica;
     margin-bottom: 30px;
+}
+.contact_form div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 /* footer*/
 footer{
