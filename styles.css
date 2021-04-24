@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
 }
@@ -76,6 +79,41 @@ header{
 }
 .item_image{
     width: 100%;
+}
+/*forma de contacto*/
+#contactanos{
+    padding: 0 17% 0 17%;
+}
+.contact_form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.contact_form h3{
+    font-family: Helvetica;
+    font-size: 27px;
+    width: 100%;
+    text-align: center;
+}
+.email{
+    width: 50%;
+    height: 25px;
+    border-color:transparent;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+#send_button{
+    background-color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 20% 0 20%;
+    height: 30px;
+    font-family: Helvetica;
+    margin-bottom: 30px;
 }
 /* footer*/
 footer{
