@@ -45,11 +45,17 @@ header{
     opacity: .7;
     border-radius: 3px;
 }
+@media screen and (max-width:426px){
+    .menu_container{
+        display: none;
+    }
+}
 /*aqui empieza el hero*/
 .hero{
     padding: 0 15% 0 15%;
     display: flex;
     align-items: center;
+    height: 300px;
 }
 .hero h2{
     width: 50%;
@@ -61,6 +67,14 @@ header{
 }
 .image_container{
     width: 50%;
+}
+@media screen and (max-width:426px){
+    .image_container{
+        display: none;
+    }
+    .hero h2{
+        width: 100%;
+    }
 }
 /* aqui empieza el menu*/
 .menu_food{
@@ -79,6 +93,16 @@ header{
 }
 .item_image{
     width: 100%;
+}
+@media screen and (max-width:769px){
+    .item{
+        width: 40%;
+    }
+}
+@media screen and (max-width:426px){
+    .item{
+        width: 80%;
+    }
 }
 /*forma de contacto*/
 #contactanos{
@@ -131,4 +155,9 @@ footer{
 }
 footer p{
     margin: 0 0 0 0;
+}
+@media screen and (max-width:426px){
+    footer{
+        display: none;
+    }
 }
